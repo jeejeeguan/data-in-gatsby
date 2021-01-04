@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `JeeJee's Blog`,
+    title: `JeeJee`,
   },
   plugins: [
     {
@@ -10,6 +10,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
